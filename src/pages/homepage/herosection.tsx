@@ -19,7 +19,7 @@ export function HeroSection() {
             </h1>
             
             {/* Paragraph - matches image styling */}
-            <p className="text-3xl md:text-4xl font-serif font-normal text-gray-900 text-left
+            <p className="text-3xl md:text-4xl  font-normal text-gray-900 text-left
             ">
               <span className="block">Our luxury leather goods</span>
               <span className="block">are designed for a lifetime</span>
