@@ -1,6 +1,6 @@
 import React from 'react';
-import LeatherCollectionCard from '../../components/common/leathercollectioncard';
-import Button from '../../components/common/button';
+import LeatherCollectionCard from '../../common/LeatherCollectionCard';
+import Button from '../../common/Button';
 import { FiArrowRight } from 'react-icons/fi';
 
 interface CollectionItem {

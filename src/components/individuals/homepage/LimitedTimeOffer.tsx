@@ -1,7 +1,7 @@
-import Button from "../../components/common/button";
+import Button from "../../common/Button";
 import { FiArrowRight } from 'react-icons/fi';
 
-export function LimitedTimeOffer() {
+export default function LimitedTimeOffer() {
   const RightArrow = FiArrowRight as React.ComponentType<{ 
     className?: string;
     size?: number | string;

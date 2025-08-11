@@ -1,4 +1,4 @@
-import ProductBox from "../../components/common/productbox";
+import ProductBox from "../../common/ProductBox";
 
 const ProductShowCase = () => {
   return (

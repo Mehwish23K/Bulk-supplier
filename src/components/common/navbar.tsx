@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Button from './button';
+import Button from './Button';
 import { FiArrowRight } from 'react-icons/fi'; 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);

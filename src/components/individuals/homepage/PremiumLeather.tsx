@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ProductCard from '../../components/common/productcard';
+import ProductCard from '../../common/ProductCard';
 
 const PremiumLeatherSection = () => {
   const categories = ['Belts', 'Wallets', 'Backpacks', 'All'];
