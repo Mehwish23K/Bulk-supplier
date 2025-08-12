@@ -13,7 +13,6 @@ const LeatherCollectionCard: React.FC<LeatherCollectionCardProps> = ({
   title,
   description,
   imageSrc,
-  buttonText = 'Explore',
   className = ''
 }) => {
   return (
