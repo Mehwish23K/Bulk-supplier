@@ -1,7 +1,7 @@
-import Button from "../../components/common/button";
+import Button from "../../common/Button";
 import { FiArrowRight } from 'react-icons/fi';
 
-export function HeroSection() {
+export default function HeroSection() {
   const RightArrow = FiArrowRight as React.ComponentType<{ 
     className?: string;
     size?: number | string;
@@ -19,7 +19,7 @@ export function HeroSection() {
             </h1>
             
             {/* Paragraph - matches image styling */}
-            <p className="text-3xl md:text-4xl font-serif font-normal text-gray-900 text-left
+            <p className="text-3xl md:text-4xl  font-normal text-gray-900 text-left
             ">
               <span className="block">Our luxury leather goods</span>
               <span className="block">are designed for a lifetime</span>
